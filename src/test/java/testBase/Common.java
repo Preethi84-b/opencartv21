@@ -82,7 +82,7 @@ public  class Common {
         driver.get(p.getProperty("appurl"));
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 			
 			public String randomstring () {
